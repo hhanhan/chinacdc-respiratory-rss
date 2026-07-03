@@ -1,0 +1,34 @@
+name: Update China CDC respiratory RSS
+
+on:
+  workflow_dispatch:
+  schedule:
+    # China CDC has recently published this page on Thursdays.
+    - cron: "30 2 * * 4"
+
+permissions:
+  contents: write
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate RSS
+        run: >-
+          python scripts/chinacdc_respiratory_rss.py
+          --output docs/chinacdc-respiratory-sentinel.xml
+          --feed-url "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/chinacdc-respiratory-sentinel.xml"
+
+      - name: Commit RSS update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/chinacdc-respiratory-sentinel.xml
+          git diff --cached --quiet || git commit -m "Update China CDC respiratory RSS"
+          git push
