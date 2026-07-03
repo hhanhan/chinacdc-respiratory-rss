@@ -3,8 +3,9 @@ name: Update China CDC respiratory RSS
 on:
   workflow_dispatch:
   schedule:
-    # China CDC has recently published this page on Thursdays.
-    - cron: "30 2 * * 4"
+    # Run on Fridays in Beijing time, with a second pass for late publications.
+    - cron: "30 2 * * 5"   # Friday 10:30 CST
+    - cron: "30 12 * * 5"  # Friday 20:30 CST
 
 permissions:
   contents: write

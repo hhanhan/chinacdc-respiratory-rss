@@ -16,7 +16,7 @@ https://hhanhan.github.io/chinacdc-respiratory-rss/chinacdc-respiratory-sentinel
 
 ## Update
 
-The GitHub Actions workflow runs every Thursday at 10:30 Beijing time.
+The GitHub Actions workflow runs every Friday at 10:30 and 20:30 Beijing time.
 
 Manual update:
 
