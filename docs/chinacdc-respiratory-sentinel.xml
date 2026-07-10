@@ -5,9 +5,16 @@
     <link>https://www.chinacdc.cn/jksj/jksj04_14275/</link>
     <description>中国疾病预防控制中心每周发布的全国急性呼吸道传染病哨点监测情况。</description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Jul 2026 22:36:31 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 14:26:00 +0800</lastBuildDate>
     <ttl>720</ttl>
     <atom:link href="https://hhanhan.github.io/chinacdc-respiratory-rss/chinacdc-respiratory-sentinel.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>全国急性呼吸道传染病哨点监测情况（2026年第27周）</title>
+      <link>https://www.chinacdc.cn/jksj/jksj04_14275/202607/t20260709_1838004.html</link>
+      <guid isPermaLink="true">https://www.chinacdc.cn/jksj/jksj04_14275/202607/t20260709_1838004.html</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0800</pubDate>
+      <description>2026年第27周（2026年6月29日—7月5日），对全国哨点医院（不含港澳台）采集的门急诊流感样病例和住院严重急性呼吸道感染病例的呼吸道样本，开展新型冠状病毒、流感病毒、呼吸道合胞病毒、腺病毒、人偏肺病毒、副流感病毒、普通冠状病毒、博卡病毒、鼻病毒和肠道病毒等10种病毒以及肺炎支原体在内的多种呼吸道病原体检测。一、监测结果第27周，全国哨点医院报告的流感样病例数占门急诊就诊总数的比例（流感样病例百分比）为4.3%...</description>
+    </item>
     <item>
       <title>全国急性呼吸道传染病哨点监测情况（2026年第26周）</title>
       <link>https://www.chinacdc.cn/jksj/jksj04_14275/202607/t20260702_1837703.html</link>
@@ -168,13 +175,6 @@
       <guid isPermaLink="true">https://www.chinacdc.cn/jksj/jksj04_14275/202601/t20260129_314845.html</guid>
       <pubDate>Thu, 29 Jan 2026 00:00:00 +0800</pubDate>
       <description>2026年第4周（2026年1月19日—1月25日），对全国哨点医院（不含港澳台）采集的门急诊流感样病例和住院严重急性呼吸道感染病例的呼吸道样本，开展新型冠状病毒、流感病毒、呼吸道合胞病毒、腺病毒、人偏肺病毒、副流感病毒、普通冠状病毒、博卡病毒、鼻病毒和肠道病毒等10种病毒以及肺炎支原体在内的多种呼吸道病原体检测。 一、监测结果 第4周，全国哨点医院报告的流感样病例数占门急诊就诊总数的比例（流感样病例百分...</description>
-    </item>
-    <item>
-      <title>全国急性呼吸道传染病哨点监测情况（2026年第3周）</title>
-      <link>https://www.chinacdc.cn/jksj/jksj04_14275/202601/t20260122_314769.html</link>
-      <guid isPermaLink="true">https://www.chinacdc.cn/jksj/jksj04_14275/202601/t20260122_314769.html</guid>
-      <pubDate>Thu, 22 Jan 2026 00:00:00 +0800</pubDate>
-      <description>2026年第3周（2026年1月12日—1月18日），对全国哨点医院（不含港澳台）采集的门急诊流感样病例和住院严重急性呼吸道感染病例的呼吸道样本，开展新型冠状病毒、流感病毒、呼吸道合胞病毒、腺病毒、人偏肺病毒、副流感病毒、普通冠状病毒、博卡病毒、鼻病毒和肠道病毒等10种病毒以及肺炎支原体在内的多种呼吸道病原体检测。 一、监测结果 第3周，全国哨点医院报告的流感样病例数占门急诊就诊总数的比例（流感样病例百分...</description>
     </item>
   </channel>
 </rss>
